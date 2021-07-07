@@ -1,5 +1,7 @@
-test=int(input())
-for i in range(test):
+while True:
     n=int(input())
-    print(n)
-   
+    if n==42:
+        break
+    else:
+        print(n)
+    
